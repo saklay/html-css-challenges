@@ -1,0 +1,32 @@
+{
+  "name": "html-css-challenges",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JS Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "dev:build": "rm -rf dist && gulp",
+    "dev:install": "npm install && bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saklay/html-css-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saklay/html-css-challenges/issues"
+  },
+  "homepage": "https://github.com/saklay/html-css-challenges",
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.14.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.3.2",
+    "reset-css": "^2.2.0"
+  }
+}
