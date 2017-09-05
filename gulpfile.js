@@ -8,33 +8,16 @@ var fs           = require('fs');
 var gulp         = require('gulp');
 var path         = require('path');
 var sass         = require('gulp-sass');
-var sassLint     = require('gulp-sass-lint');
+// var sassLint     = require('gulp-sass-lint');
 var dataPath     = 'src/data'; // set directory for the json data files
 var configPath   = 'src/config'; // set directory for the json site config files;
 
 /**
- * JS debugging
- */
-gulp.task('lint', ['lint:sass']);
-
-gulp.task('lint:sass', function () {
-  // [FS] NOTE: Configuration within .sass-lint.yml
-  return gulp.src([
-      'src/assets/scss/**/*.scss',
-      '!src/assets/scss/variables/*.scss'
-    ])
-    .pipe(sassLint())
-    .pipe(sassLint.format())
-    .pipe(sassLint.failOnError());
-});
-
-/**
  * Compile CSS
  */
-gulp.task('css', ['lint:sass'], function() {
+gulp.task('css', function() {
   return gulp.src([
-      'src/assets/scss/**/*.scss',
-      '!src/assets/scss/variables/*.scss'
+      'src/assets/scss/*.scss'
     ])
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('main.css'))
@@ -42,7 +25,6 @@ gulp.task('css', ['lint:sass'], function() {
       browsers: ['last 2 versions', 'ios_saf 8', 'IE > 9'],
       cascade: false
     }))
-    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist/css/'))
     .pipe(browserSync.stream());
 });
@@ -78,8 +60,8 @@ gulp.task('watch', function() {
     xip: false
   });
 
-  gulp.watch('src/assets/js/**/*.js', ['scripts']);
-  gulp.watch('src/assets/scss/**/*.scss', ['css']);
+  gulp.watch('src/assets/js/*.js', ['scripts']);
+  gulp.watch('src/assets/scss/*.scss', ['css']);
 
   gulp.watch('dist/*.html').on('change', browserSync.reload);
 });
@@ -88,7 +70,8 @@ gulp.task('watch', function() {
  * Default tasks for CLI
  */
 gulp.task('default', ['build', 'watch']);
-gulp.task('build', ['clean', 'css']);
+gulp.task('build', ['css']);
+// gulp.task('build', ['clean', 'css']);
 
 /**
  * Helpers

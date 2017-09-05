@@ -1,0 +1,66 @@
+#fonts-colors {
+  width: auto;
+  padding: 20px;
+  color: #666;
+
+  hr {
+    background-color: #fff;
+    border-top: 2px dashed #8c8b8b;
+  }
+
+  a {
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  a:hover {
+    color: #f00;
+  }
+
+  h1, h2, h3 {
+    font-family: Verdana, serif;
+    color: #00f;
+    line-height: 30px;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  dl {
+
+    dt {
+      float: left;
+      margin-right: 10px;
+      padding: 5px;
+    }
+
+    dd {
+      margin: 2px 0;
+      padding: 5px 0;
+    }
+  }
+
+  .clearAll {
+    clear: both;
+  }
+
+  .header {
+
+    .header-image {
+      float: left;
+      width: 30%;
+    }
+
+    .header-info {
+      float: right;
+      width: 70%;
+    }
+  }
+
+  .footer {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #ccc;
+  }
+}
