@@ -301,3 +301,110 @@
       margin-left: 0px; }
     #fixed-sidebar #sidebar {
       display: none; } }
+
+#profile-dashboard {
+  width: auto;
+  padding: 20px;
+  color: #666;
+  font-family: Verdana, serif;
+  background-color: #ddd;
+  line-height: 1.6em; }
+  #profile-dashboard hr {
+    background-color: #fff;
+    border-top: 2px dashed #8c8b8b; }
+  #profile-dashboard a {
+    text-decoration: none;
+    color: #aaa; }
+  #profile-dashboard a:hover {
+    color: #f00;
+    cursor: pointer; }
+  #profile-dashboard p {
+    text-align: justify; }
+  #profile-dashboard h1, #profile-dashboard h2, #profile-dashboard h3 {
+    font-family: Verdana, serif;
+    color: #d55;
+    line-height: 30px; }
+  #profile-dashboard img {
+    width: 150px; }
+  #profile-dashboard dl dt {
+    float: left;
+    margin-right: 10px;
+    padding: 5px; }
+  #profile-dashboard dl dd {
+    margin: 2px 0;
+    padding: 5px 0; }
+  #profile-dashboard ul {
+    text-align: center; }
+  #profile-dashboard ul.list-inline {
+    padding-left: 0;
+    text-align: center; }
+    #profile-dashboard ul.list-inline li {
+      display: inline-block;
+      padding: 20px; }
+      #profile-dashboard ul.list-inline li i {
+        font-size: 25px; }
+  #profile-dashboard .clearAll {
+    clear: both; }
+  #profile-dashboard .container {
+    width: 90%;
+    margin: 20px auto; }
+  #profile-dashboard .text-center {
+    text-align: center; }
+  #profile-dashboard .img-circle {
+    border-radius: 50%; }
+  #profile-dashboard .card {
+    background: #fff;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2); }
+  #profile-dashboard .header .header-image {
+    float: left;
+    width: 30%; }
+  #profile-dashboard .header .header-info {
+    float: right;
+    width: 70%; }
+  #profile-dashboard .footer {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #ccc; }
+  #profile-dashboard .btn-red {
+    background-color: #d55;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px; }
+  #profile-dashboard .btn-red:hover {
+    background-color: #c61414; }
+  #profile-dashboard #img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ccc; }
+  #profile-dashboard #wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1); }
+  #profile-dashboard #left-container {
+    width: 35%;
+    float: left;
+    min-height: 600px; }
+    #profile-dashboard #left-container .card:first-child {
+      min-height: 350px; }
+    #profile-dashboard #left-container .card:last-child {
+      min-height: 120px; }
+  #profile-dashboard #right-container {
+    width: 60%;
+    float: right;
+    min-height: 600px; }
+    #profile-dashboard #right-container .card {
+      min-height: 530px; }
+  #profile-dashboard #footer {
+    position: relative;
+    padding: 10px 400px 60px 20px; }
+  #profile-dashboard #share {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    right: 0px; }
