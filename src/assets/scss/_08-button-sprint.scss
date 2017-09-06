@@ -1,0 +1,74 @@
+#button-sprint {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Open-sans, sans-serif;
+
+  h1, h2, h3 {
+    font-family: Raleway, Helvetica, sans-serif;
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  span {
+    color: #999;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .btn-medium {
+    color: #999;
+    border: 1px solid #999;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: ligther;
+    opacity: 0.6;
+  }
+
+  .btn-medium:hover {
+    opacity: 1;
+  }
+
+  .btn-treehouse {
+    color: white;
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #6AD58B;
+    transition: background 0.3s ease;
+  }
+
+  .btn-treehouse:hover {
+    opacity: 1;
+    background: #3ac162;
+    text-decoration: none;
+  }
+
+  .btn-mine {
+    color: black;
+    padding: 15px 25px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: lighter;
+    background: #ccc;
+    transition: background 0.3s ease;
+  }
+
+  .btn-mine:hover {
+    opacity: 1;
+    background: #999;
+    text-decoration: none;
+  }
+}
