@@ -580,3 +580,144 @@
     text-decoration: none;
     color: white;
     cursor: pointer; }
+
+#homepage-with-cards {
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  margin-bottom: 100px; }
+  #homepage-with-cards h1, #homepage-with-cards h2, #homepage-with-cards h3 {
+    margin-bottom: 40px; }
+  #homepage-with-cards .text-center {
+    text-align: center; }
+  #homepage-with-cards .container {
+    max-width: 1000px;
+    margin: 50px auto; }
+  #homepage-with-cards .banner {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    #homepage-with-cards .banner h1 {
+      font-size: 50px;
+      font-weight: bold;
+      text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+    #homepage-with-cards .banner p {
+      font-size: 25px;
+      font-weight: lighter;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 50px; }
+    #homepage-with-cards .banner .btn {
+      margin-top: 20px; }
+  #homepage-with-cards .btn-treehouse {
+    color: white;
+    padding: 25px 35px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #6AD58B;
+    transition: background 0.3s ease; }
+  #homepage-with-cards .btn-treehouse:hover {
+    opacity: 1;
+    background: #3ac162;
+    text-decoration: none;
+    color: white;
+    cursor: pointer; }
+  #homepage-with-cards .avatar {
+    width: 30px;
+    border-radius: 50%; }
+  #homepage-with-cards .avatar-bordered {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid white; }
+  #homepage-with-cards .avatar-large {
+    width: 40px; }
+  #homepage-with-cards .cards {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  #homepage-with-cards .card {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: 10px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease; }
+  #homepage-with-cards .card:hover {
+    margin-top: -5px; }
+  #homepage-with-cards .card-body {
+    height: 180px;
+    background-size: cover;
+    color: white;
+    position: relative; }
+  #homepage-with-cards .card-user {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+  #homepage-with-cards .card-cartegory {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    opacity: 0.9; }
+  #homepage-with-cards .card-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; }
+    #homepage-with-cards .card-description h2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 0px; }
+    #homepage-with-cards .card-description p {
+      font-size: 14px;
+      font-weight: lighter;
+      opacity: 0.9; }
+  #homepage-with-cards .card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0; }
+  #homepage-with-cards .card-link:hover {
+    opacity: 0.1; }
+  #homepage-with-cards .card-footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px; }
+    #homepage-with-cards .card-footer p {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 12px;
+      font-weight: lighter; }
+    #homepage-with-cards .card-footer .controls {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      #homepage-with-cards .card-footer .controls i {
+        padding: 0 10px;
+        color: black;
+        opacity: 0.2; }
+      #homepage-with-cards .card-footer .controls i:hover {
+        opacity: 0.4; }
