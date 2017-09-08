@@ -9,8 +9,8 @@
   #profile-content a {
     text-decoration: none;
     color: #00f; }
-  #profile-content a:hover {
-    text-decoration: underline; }
+    #profile-content a:hover {
+      text-decoration: underline; }
   #profile-content dl dt {
     float: left;
     margin-right: 10px;
@@ -41,8 +41,8 @@
   #fonts-colors a {
     text-decoration: none;
     color: #aaa; }
-  #fonts-colors a:hover {
-    color: #f00; }
+    #fonts-colors a:hover {
+      color: #f00; }
   #fonts-colors h1, #fonts-colors h2, #fonts-colors h3 {
     font-family: Verdana, serif;
     color: #00f;
@@ -79,9 +79,9 @@
   #box-model a {
     text-decoration: none;
     color: #aaa; }
-  #box-model a:hover {
-    color: #f00;
-    cursor: pointer; }
+    #box-model a:hover {
+      color: #f00;
+      cursor: pointer; }
   #box-model h1, #box-model h2, #box-model h3 {
     font-family: Verdana, serif;
     color: #00f;
@@ -134,9 +134,9 @@
   #advanced-selectors a {
     text-decoration: none;
     color: #aaa; }
-  #advanced-selectors a:hover {
-    color: #f00;
-    cursor: pointer; }
+    #advanced-selectors a:hover {
+      color: #f00;
+      cursor: pointer; }
   #advanced-selectors p {
     text-align: justify; }
   #advanced-selectors h1, #advanced-selectors h2, #advanced-selectors h3 {
@@ -190,8 +190,8 @@
     font-weight: 500;
     padding: 10px;
     border-radius: 4px; }
-  #advanced-selectors .btn-red:hover {
-    background-color: #c61414; }
+    #advanced-selectors .btn-red:hover {
+      background-color: #c61414; }
   #advanced-selectors #img-profile {
     width: 100px;
     height: 100px;
@@ -210,9 +210,9 @@
   #fixed-sidebar a {
     text-decoration: none;
     color: #aaa; }
-  #fixed-sidebar a:hover {
-    color: #f00;
-    cursor: pointer; }
+    #fixed-sidebar a:hover {
+      color: #f00;
+      cursor: pointer; }
   #fixed-sidebar p {
     text-align: justify; }
   #fixed-sidebar h1, #fixed-sidebar h2, #fixed-sidebar h3 {
@@ -269,8 +269,8 @@
     font-weight: 500;
     padding: 10px;
     border-radius: 4px; }
-  #fixed-sidebar .btn-red:hover {
-    background-color: #c61414; }
+    #fixed-sidebar .btn-red:hover {
+      background-color: #c61414; }
   #fixed-sidebar #img-profile {
     width: 100px;
     height: 100px;
@@ -294,8 +294,8 @@
       text-decoration: none;
       font-size: 25px;
       color: #788188; }
-    #fixed-sidebar #sidebar a:hover {
-      color: white; }
+      #fixed-sidebar #sidebar a:hover {
+        color: #fff; }
   @media (max-width: 768px) {
     #fixed-sidebar #content {
       margin-left: 0px; }
@@ -315,9 +315,9 @@
   #profile-dashboard a {
     text-decoration: none;
     color: #aaa; }
-  #profile-dashboard a:hover {
-    color: #f00;
-    cursor: pointer; }
+    #profile-dashboard a:hover {
+      color: #f00;
+      cursor: pointer; }
   #profile-dashboard p {
     text-align: justify; }
   #profile-dashboard h1, #profile-dashboard h2, #profile-dashboard h3 {
@@ -374,8 +374,8 @@
     font-weight: 500;
     padding: 10px;
     border-radius: 4px; }
-  #profile-dashboard .btn-red:hover {
-    background-color: #c61414; }
+    #profile-dashboard .btn-red:hover {
+      background-color: #c61414; }
   #profile-dashboard #img-profile {
     width: 100px;
     height: 100px;
@@ -508,8 +508,8 @@
     border-radius: 50px;
     font-weight: ligther;
     opacity: 0.6; }
-  #button-sprint .btn-medium:hover {
-    opacity: 1; }
+    #button-sprint .btn-medium:hover {
+      opacity: 1; }
   #button-sprint .btn-treehouse {
     color: white;
     padding: 15px 25px;
@@ -517,10 +517,10 @@
     font-weight: bold;
     background: #6AD58B;
     transition: background 0.3s ease; }
-  #button-sprint .btn-treehouse:hover {
-    opacity: 1;
-    background: #3ac162;
-    text-decoration: none; }
+    #button-sprint .btn-treehouse:hover {
+      opacity: 1;
+      background: #3ac162;
+      text-decoration: none; }
   #button-sprint .btn-mine {
     color: black;
     padding: 15px 25px;
@@ -529,10 +529,10 @@
     font-weight: lighter;
     background: #ccc;
     transition: background 0.3s ease; }
-  #button-sprint .btn-mine:hover {
-    opacity: 1;
-    background: #999;
-    text-decoration: none; }
+    #button-sprint .btn-mine:hover {
+      opacity: 1;
+      background: #999;
+      text-decoration: none; }
 
 #canonical-banner {
   font-family: Open-sans, sans-serif;
@@ -574,12 +574,12 @@
     font-size: 20px;
     background: #6AD58B;
     transition: background 0.3s ease; }
-  #canonical-banner .btn-treehouse:hover {
-    opacity: 1;
-    background: #3ac162;
-    text-decoration: none;
-    color: white;
-    cursor: pointer; }
+    #canonical-banner .btn-treehouse:hover {
+      opacity: 1;
+      background: #3ac162;
+      text-decoration: none;
+      color: white;
+      cursor: pointer; }
 
 #homepage-with-cards {
   font-family: 'Varela Round', sans-serif;
@@ -691,8 +691,8 @@
     z-index: 2;
     background: black;
     opacity: 0; }
-  #homepage-with-cards .card-link:hover {
-    opacity: 0.1; }
+    #homepage-with-cards .card-link:hover {
+      opacity: 0.1; }
   #homepage-with-cards .card-footer {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -719,5 +719,78 @@
         padding: 0 10px;
         color: black;
         opacity: 0.2; }
-      #homepage-with-cards .card-footer .controls i:hover {
-        opacity: 0.4; }
+        #homepage-with-cards .card-footer .controls i:hover {
+          opacity: 0.4; }
+
+#profile-with-tabs {
+  font-family: Open-sans, sans-serif;
+  margin: 0; }
+  #profile-with-tabs h1, #profile-with-tabs h2, #profile-with-tabs h3 {
+    font-family: Raleway, Helvetica, sans-serif; }
+  #profile-with-tabs a {
+    text-decoration: none; }
+  #profile-with-tabs .text-center {
+    text-align: center; }
+  #profile-with-tabs .container {
+    max-width: 900px;
+    margin: 0 auto; }
+  #profile-with-tabs .avatar {
+    width: 30px;
+    border-radius: 50%; }
+  #profile-with-tabs .avatar-bordered {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid white; }
+  #profile-with-tabs .avatar-large {
+    width: 40px; }
+  #profile-with-tabs .tabs {
+    background: #53443F;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 10px 0 10px; }
+    #profile-with-tabs .tabs a {
+      color: white; }
+      #profile-with-tabs .tabs a:hover {
+        cursor: pointer;
+        text-decoration: none;
+        opacity: 0.8; }
+    #profile-with-tabs .tabs h3 {
+      font-size: 17px;
+      font-weight: bold;
+      margin-top: 0; }
+    #profile-with-tabs .tabs p {
+      opacity: 0.5;
+      margin-bottom: 0; }
+  #profile-with-tabs .tab {
+    background: #756A66;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    text-align: center;
+    padding: 15px 0; }
+    #profile-with-tabs .tab:first-child {
+      border-radius: 10px 0 0 0; }
+    #profile-with-tabs .tab:last-child {
+      border-radius: 0 10px 0 0; }
+    #profile-with-tabs .tab.active {
+      background: white;
+      color: black; }
+  #profile-with-tabs .profile-header-wrapper {
+    background: #53443F; }
+  #profile-with-tabs .profile-header-container img {
+    width: 100px;
+    border-radius: 50px; }
+  #profile-with-tabs .profile-header-container h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px; }
+  #profile-with-tabs .profile-header-container h2 {
+    color: white;
+    opacity: 0.4;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    margin-bottom: 0; }
+  #profile-with-tabs .profile-header-infos {
+    padding: 20px 0; }

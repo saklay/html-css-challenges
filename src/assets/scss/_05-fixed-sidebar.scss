@@ -14,11 +14,11 @@
   a {
     text-decoration: none;
     color: #aaa;
-  }
 
-  a:hover {
-    color: #f00;
-    cursor: pointer;
+    &:hover {
+      color: #f00;
+      cursor: pointer;
+    }
   }
 
   p {
@@ -117,10 +117,10 @@
     font-weight: 500;
     padding: 10px;
     border-radius: 4px;
-  }
 
-  .btn-red:hover {
-    background-color: #c61414;
+    &:hover {
+      background-color: #c61414;
+    }
   }
 
   #img-profile {
@@ -155,10 +155,10 @@
       text-decoration: none;
       font-size: 25px;
       color: #788188;
-    }
 
-    a:hover {
-      color: white;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 

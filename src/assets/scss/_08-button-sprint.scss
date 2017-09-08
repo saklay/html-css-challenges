@@ -35,10 +35,10 @@
     border-radius: 50px;
     font-weight: ligther;
     opacity: 0.6;
-  }
 
-  .btn-medium:hover {
-    opacity: 1;
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .btn-treehouse {
@@ -48,12 +48,12 @@
     font-weight: bold;
     background: #6AD58B;
     transition: background 0.3s ease;
-  }
 
-  .btn-treehouse:hover {
-    opacity: 1;
-    background: #3ac162;
-    text-decoration: none;
+    &:hover {
+      opacity: 1;
+      background: #3ac162;
+      text-decoration: none;
+    }
   }
 
   .btn-mine {
@@ -64,11 +64,11 @@
     font-weight: lighter;
     background: #ccc;
     transition: background 0.3s ease;
-  }
 
-  .btn-mine:hover {
-    opacity: 1;
-    background: #999;
-    text-decoration: none;
+    &:hover {
+      opacity: 1;
+      background: #999;
+      text-decoration: none;
+    }
   }
 }

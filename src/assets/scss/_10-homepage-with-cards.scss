@@ -141,10 +141,10 @@
     z-index: 2;
     background: black;
     opacity: 0;
-  }
 
-  .card-link:hover {
-    opacity: 0.1;
+    &:hover {
+      opacity: 0.1;
+    }
   }
 
   .card-footer {
@@ -167,10 +167,10 @@
         padding: 0 10px;
         color: black;
         opacity: 0.2;
-      }
 
-      i:hover {
-        opacity: 0.4;
+        &:hover {
+          opacity: 0.4;
+        }
       }
     }
   }

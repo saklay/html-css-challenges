@@ -14,11 +14,11 @@
   a {
     text-decoration: none;
     color: #aaa;
-  }
 
-  a:hover {
-    color: #f00;
-    cursor: pointer;
+    &:hover {
+      color: #f00;
+      cursor: pointer;
+    }
   }
 
   p {
@@ -117,10 +117,10 @@
     font-weight: 500;
     padding: 10px;
     border-radius: 4px;
-  }
 
-  .btn-red:hover {
-    background-color: #c61414;
+    &:hover {
+      background-color: #c61414;
+    }
   }
 
   #img-profile {
@@ -142,13 +142,16 @@
     float: left;
     min-height: 600px;
 
-    .card:first-child {
-      min-height: 350px;
-    }
+    .card {
 
-    .card:last-child {
-      min-height: 120px;
-      padding: 20px 0;
+      &:first-child {
+        min-height: 350px;
+      }
+
+      &:last-child {
+        min-height: 120px;
+        padding: 20px 0;
+      }
     }
   }
 
